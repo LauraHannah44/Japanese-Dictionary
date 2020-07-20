@@ -1,0 +1,1 @@
+"上", "above", t_rating=5, r_rating=3, category="direction", in_mind_map=True, readings={"ジョウ": [], "ショウ": [], "シャン": [], "あ": [], "のぼ": []}
