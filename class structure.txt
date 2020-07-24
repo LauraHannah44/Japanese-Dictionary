@@ -1,0 +1,27 @@
+Class
+    writings (dict)
+        writing (dict)
+            character (string)
+    readings (dict)
+        reading (dict)
+            character (string)
+    translations (dict)
+        translation (string)
+    word_type (string)
+    category (string)
+    rating (list)
+        t_rating (int)
+        r_rating (int)
+    similarity (list)
+        w_similarity (string)
+        t_similarity (string)
+        r_similarity (string)
+    in_mind_map (bool)
+    notes (string)
+
+    __init__(self, writings, readings, translations,
+             usage, category, rating, similarity,
+             on_mind_map, notes)
+    define_kanji_list(cls)
+    __repr__(self)
+    __str__(self)
