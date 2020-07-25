@@ -1,11 +1,8 @@
-Class
-    writings (dict)
-        writing (dict)
+Vocab
+    writings (list)
+        writing (list)
             character (string)
-    readings (dict)
-        reading (dict)
-            character (string)
-    translations (dict)
+    translations (list)
         translation (string)
     word_type (string)
     category (string)
@@ -20,8 +17,22 @@ Class
     notes (string)
 
     __init__(self, writings, readings, translations,
-             usage, category, rating, similarity,
+             word_type, category, rating, similarity,
              on_mind_map, notes)
     define_kanji_list(cls)
+
+Kanji
+    readings (dict)
+        reading (list)
+            word (Word)
+
+    __repr__(self)
+    __str__(self)
+
+Word
+    readings (list)
+        reading (list)
+            character (string)
+
     __repr__(self)
     __str__(self)
